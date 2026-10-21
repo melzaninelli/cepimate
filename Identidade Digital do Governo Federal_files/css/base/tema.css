@@ -1,0 +1,477 @@
+a,
+a:hover,
+a:visited {
+    color: #0056b3;
+}
+
+.noticia h2 a,
+.noticia h3 a,
+.noticia h4 a,
+.noticia h5 a,
+.noticia h6 a {
+    color: #000;
+}
+
+body {
+    /* sem isso, o IE buga ao alternar alto contraste. */
+    background-color: white;
+}
+
+#titulo-menu-retratil a{
+    background-image: url(../img/tema-branco/bg-menu-mobile.png);
+}
+
+body.verde #titulo-menu-retratil a{
+    background-image: url(../img/tema-verde/bg-menu-mobile.png);
+}
+
+body.amarelo #titulo-menu-retratil a{
+    background-image: url(../img/tema-amarelo/bg-menu-mobile.png);
+}
+
+body.azul #titulo-menu-retratil a{
+    background-image: url(../img/tema-azul/bg-menu-mobile.png);
+}
+
+body.contraste #titulo-menu-retratil a{
+    background-image: url(../img/tema-contraste/bg-menu-mobile-contraste.png);
+}
+body header #cabecalho,
+#titulo-menu-retratil{
+    background-color: #F0F2F1;
+    background-color: #ECEDF1;    
+}
+#menu-lateral {
+    border-color: #114dad;
+}
+
+body.verde #menu-lateral {
+    border-color: #00510f;
+}
+
+body.amarelo #menu-lateral {
+    border-color: #fefab4;
+}
+
+
+body header #cabecalho {
+    background-image: -moz-radial-gradient(center, ellipse cover, #F0F2F1 1%, #ECEDF1 100%);
+    background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%, #F0F2F1), color-stop(100%, #ECEDF1));
+    background-image: -webkit-radial-gradient(center, ellipse cover, #F0F2F1 1%, #ECEDF1 100%);
+    background-image: -o-radial-gradient(center, ellipse cover, #F0F2F1 1%, #ECEDF1 100%);
+    background-image: -ms-radial-gradient(center, ellipse cover, #F0F2F1 1%, #ECEDF1 100%);
+    background-image: radial-gradient(ellipse at center, #F0F2F1 1%, #ECEDF1 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr=" #F0F2F1", endColorstr=" #ECEDF1", GradientType=1);
+}
+
+body.verde header #cabecalho,
+body.verde #titulo-menu-retratil {
+    background-color: #17882C;
+    background-color: #00510F;
+}
+body.verde header #cabecalho {
+    background-image: -moz-radial-gradient(center, ellipse cover, #17882C 1%, #00510F 100%);
+    background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%, #17882C), color-stop(100%, #00510F));
+    background-image: -webkit-radial-gradient(center, ellipse cover, #17882C 1%, #00510F 100%);
+    background-image: -o-radial-gradient(center, ellipse cover, #17882C 1%, #00510F 100%);
+    background-image: -ms-radial-gradient(center, ellipse cover, #17882C 1%, #00510F 100%);
+    background-image: radial-gradient(ellipse at center, #17882C 1%, #00510F 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#17882C", endColorstr="#00510F", GradientType=1);
+}
+
+body.amarelo header #cabecalho,
+body.amarelo #titulo-menu-retratil {
+    background-color: #FCDD4E;
+    background-color: #F9C404;
+}
+body.amarelo header #cabecalho {
+    background-image: -moz-radial-gradient(center, ellipse cover, #FCDD4E 1%, #F9C404 100%);
+    background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%, #FCDD4E), color-stop(100%, #F9C404));
+    background-image: -webkit-radial-gradient(center, ellipse cover, #FCDD4E 1%, #F9C404 100%);
+    background-image: -o-radial-gradient(center, ellipse cover, #FCDD4E 1%, #F9C404 100%);
+    background-image: -ms-radial-gradient(center, ellipse cover, #FCDD4E 1%, #F9C404 100%);
+    background-image: radial-gradient(ellipse at center, #FCDD4E 1%, #F9C404 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FCDD4E", endColorstr="#F9C404", GradientType=1);
+}
+
+body.azul header #cabecalho,
+body.azul #titulo-menu-retratil {
+    background-color: #3A72BC;
+    background-color: #2160BD;
+}
+body.azul header #cabecalho {
+    background-image: -moz-radial-gradient(center, ellipse cover, #3A72BC 1%, #2160BD 100%);
+    background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%, #3A72BC), color-stop(100%, #2160BD));
+    background-image: -webkit-radial-gradient(center, ellipse cover, #3A72BC 1%, #2160BD 100%);
+    background-image: -o-radial-gradient(center, ellipse cover, #3A72BC 1%, #2160BD 100%);
+    background-image: -ms-radial-gradient(center, ellipse cover, #3A72BC 1%, #2160BD 100%);
+    background-image: radial-gradient(ellipse at center, #3A72BC 1%, #2160BD 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr=" #3A72BC", endColorstr=" #2160BD", GradientType=1);
+}
+
+body.contraste main {
+    color: white;
+}
+
+#barra-atalhos span {
+    background-color: #2c66ce;
+    color: #fff;
+}
+
+body.verde #barra-atalhos span {
+    background-color: #9ed5ab;
+    color: #006600;
+}
+
+body.azul #barra-atalhos span {
+    background-color: #aed3ff;
+    color: #fff;
+}
+
+#barra-acessibilidade,
+#barra-idiomas {
+    border-bottom-color: #03316f;
+}
+
+body.verde #barra-acessibilidade,
+body.verde #barra-idiomas,
+body.azul #barra-acessibilidade,
+body.azul #barra-idiomas {
+    border-bottom-color: #9bc2a3;
+    ;
+}
+
+#cabecalho,
+header a,
+header a:hover,
+header a:active,
+header a:visited,
+#barra-breadcrumb a,
+#barra-breadcrumb a:hover,
+#barra-breadcrumb a:active,
+#barra-breadcrumb a:visited,
+#footer-menu,
+#footer-menu a,
+#footer-menu a:hover,
+#footer-menu a:active,
+#footer-menu a:visited {
+    color: #2C66CE
+}
+
+body.verde #cabecalho,
+body.verde header a,
+body.verde header a:hover,
+body.verde header a:active,
+body.verde header a:visited,
+body.azul header a,
+body.azul header a:hover,
+body.azul header a:active,
+body.azul header a:visited,
+body.azul #footer-menu,
+body.azul #footer-menu a,
+body.azul #footer-menu a:hover,
+body.azul #footer-menu a:active,
+body.azul #footer-menu a:visited body.verde #footer-menu dd,
+body.verde #footer-menu a,
+body.verde #footer-menu a:hover,
+body.verde #footer-menu a:active,
+body.verde #footer-menu a:visited {
+    color: #FFFFFF
+}
+
+body.verde #footer-menu {
+    color: #61b06f;
+}
+
+body.amarelo #cabecalho,
+body.amarelo header a,
+body.amarelo header a:hover,
+body.amarelo header a:active,
+body.amarelo header a:visited,
+body.amarelo #footer-menu,
+body.amarelo #footer-menu a,
+body.amarelo #footer-menu a:hover,
+body.amarelo #footer-menu a:active,
+body.amarelo #footer-menu a:visited {
+    color: #03316F;
+}
+
+#barra-servicos {
+    background-color: #cfd0d2;
+}
+
+body.verde #barra-servicos {
+    background-color: #01420a;
+}
+
+body.amarelo #barra-servicos {
+    background-color: #f8b904;
+}
+
+body.azul #barra-servicos {
+    background-color: #0e4097;
+}
+
+/* Resetar as cores do breadcrumb */
+
+#footer-brasil {
+    background-color: #0042b2
+}
+
+body.verde #footer-brasil {
+    background-color: #00420c;
+}
+
+body.amarelo #footer-brasil {
+    background-color: #f28f00;
+}
+
+/* Footer */
+body.verde #footer-menu dl {
+    border-color: #80A887;
+}
+
+body.azul #footer-menu dl {
+    border-color: #ffffff;
+}
+#footer-menu {
+    background-color: #d5d5d5;
+}
+
+body.verde #footer-menu {
+    background-color: #00510f;
+}
+
+body.amarelo #footer-menu {
+    background-color: #f8c300;
+}
+
+body.azul #footer-menu {
+    background-color: #1659bf;
+}
+
+/* Cores dos blocos */
+
+#menu-lateral .bloco .legenda,
+main .bloco>.legenda,
+main .bloco .rodape,
+hr{
+    background-color: #edeff1;
+}
+#menu-lateral .bloco .legenda,
+main .bloco>.legenda,
+hr,
+main .bloco>.rodape,
+main .main-rodape>* {
+    border-top-color: #1659bf;
+}
+
+body.verde #menu-lateral .bloco .legenda,
+body.verde main .bloco>.legenda,
+body.verde hr,
+body.verde main .bloco .rodape,
+body.verde main .main-rodape>* {
+    border-top-color: #00510f;
+}
+
+body.amarelo #menu-lateral .bloco>.legenda,
+body.amarelo main .bloco>.legenda,
+body.amarelo hr,
+body.amarelo main .bloco .rodape,
+body.amarelo main .main-rodape>*  {
+    border-top-color: #03316f;
+}
+
+.chapeu,
+#menu-lateral .bloco>.legenda,
+main .bloco>.legenda,
+hr {
+    color: #1659bf;
+}
+
+body.verde .chapeu,
+body.verde #menu-lateral .bloco>.legenda,
+body.verde main .bloco>.legenda,
+body.verde hr {
+    color: #00510f;
+}
+
+body.amarelo .chapeu,
+body.amarelo #menu-lateral .bloco>.legenda,
+body.amarelo main .bloco>.legenda,
+body.amarelo hr {
+    color: #03316f
+}
+
+.centrais-de-conteudos li a,
+#barra-busca input[type="submit"],
+#barra-redes-sociais a {
+    background-image: url(../img/tema-branco/sprite.png);
+}
+
+body.azul .centrais-de-conteudos li a,
+body.azul #barra-busca input[type="submit"],
+body.azul #barra-redes-sociais a {
+    background-image: url(../img/tema-azul/sprite.png);
+}
+
+body.verde .centrais-de-conteudos li a,
+body.verde #barra-busca input[type="submit"],
+body.verde #barra-redes-sociais a {
+    background-image: url(../img/tema-verde/sprite.png);
+}
+
+body.amarelo .centrais-de-conteudos li a,
+body.amarelo #barra-busca input[type="submit"],
+body.amarelo #barra-redes-sociais a {
+    background-image: url(../img/tema-amarelo/sprite.png);
+}
+
+body:not(.contraste) main>.informacoes dl {
+    color: #2c66ce;
+}
+
+
+main .main-rodape li a{
+    border-color:  #cfcdcd;
+    background-color: #e9e8ed;
+}
+main .main-rodape li a:hover,
+main .bloco .rodape .icon:after{
+    background-color: #205c90;
+    color: White;
+    border-color: #205c90;
+}
+
+body.verde main .bloco .rodape .icon:after{
+    background-color: #00510f;
+}
+
+body.contraste main .bloco .rodape .icon:after{
+    background-color: #fff333;
+    color: #000000;
+}
+
+
+main .listagem .informacoes .data .data{
+    background-image: url(../img/calendar.svg) ;   
+}
+
+main .listagem .informacoes .hora{
+    background-image: url(../img/clock.svg) ;   
+}
+main .listagem .informacoes .video{
+    background-image: url(../img/play2.svg) ;   
+}
+main .listagem .informacoes .audio{
+    background-image: url(../img/volume-high.svg) ;   
+}
+
+
+
+main .bloco .rede-social .incorporacao{
+    border: 1px solid #d4d5d7;
+    background-color: #eeeff1; 
+}
+main .bloco .rede-social li a{
+    color: #454545;
+}
+main .bloco .rede-social li {
+    background-color: #eeeff1;     
+}
+
+
+
+
+body.contraste main .listagem .informacoes span{
+    color:black !important;
+    font-weight: 600;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+body.contraste ,
+body.contraste #footer-menu,
+body.contraste .chapeu,
+body.contraste main .listagem,
+body.contraste main .listagem.busca .opcoes legend,
+body.contraste input,
+body.contraste select,
+body.contraste main h2,
+body.contraste .bloco .legenda{
+    color: #ffffff !important;
+}
+body.contraste a,
+body.contraste a:hover,
+body.contraste a:visited {
+    color: #fff333 !important;
+}
+
+
+body.contraste a:hover {
+    text-decoration: underline;
+}
+
+body.contraste,
+body.contraste #cabecalho,
+body.contraste #titulo-menu-retratil{
+    background-color: black !important;
+    background-image: none !important;
+}
+
+body.contraste .centrais-de-conteudos li a,
+body.contraste #barra-busca input[type="submit"],
+body.contraste #barra-redes-sociais a {
+    background-image: url(../img/tema-contraste/sprite.png);
+}
+body.contraste select,
+body.contraste option,
+body.contraste #barra-servicos,
+body.contraste main .bloco .legenda,
+body.contraste .busca-geral fieldset,
+body.contraste #menu-lateral .bloco .legenda,
+body.contraste #footer-menu,
+body.contraste footer,
+body.contraste main .main-rodape li a:hover,
+body.contraste main .bloco .rodape,
+body.contraste input[type="checkbox"],
+body.contraste .painel,
+body.contraste main .bloco .rede-social .incorporacao,
+body.contraste main .bloco .rede-social li {
+    background-color: #1c1c1c !important;
+}
+
+body.contraste input,
+body.contraste main .main-rodape li a {
+    background-color: transparent !important;
+}
+
+body.contraste #menu-lateral .bloco .legenda,
+body.contraste hr,
+body.contraste #barra-acessibilidade,
+body.contraste #barra-idiomas,
+body.contraste main .bloco .legenda,
+body.contraste #footer-menu .celula,
+body.contraste main .bloco .rodape,
+body.contraste main .main-rodape>* {
+    border-color: #ffffff !important;
+}
+body.contraste main .bloco .rede-social li{
+    border: 1px solid #ffffff !important;
+}
+body.contraste #barra-atalhos span {
+    background: #FFF !important;
+    color: #000 !important;
+}
+
+body.contraste input:focus {
+    outline: initial !important;
+    outline: unset !important;
+}
+body.contraste main .main-rodape li a{
+    border-color:  #fff333;
+    background-color: transparent;
+}
+body.contraste main .main-rodape li a:hover{
+    border-color: white !important;
+}

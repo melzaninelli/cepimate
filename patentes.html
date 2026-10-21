@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Patente</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <link media="screen" rel="stylesheet" type="text/css" href="./Identidade Digital do Governo Federal_files/css/base/fonts.css">
+    <link rel="stylesheet" type="text/css" href="./Identidade Digital do Governo Federal_files/css/base/geral.css">
+    <link media="screen" rel="stylesheet" type="text/css" href="./Identidade Digital do Governo Federal_files/css/base/tema.css">
+    <link media="(min-width: 1024px)" rel="stylesheet" type="text/css" href="./Identidade Digital do Governo Federal_files/css/responsivo/tela-grande.css">
+    <link media="(min-width: 769px) and (max-width: 1023px)" rel="stylesheet" type="text/css" href="./Identidade Digital do Governo Federal_files/css/responsivo/tela-media.css">
+    <link media="(max-width: 768px)" rel="stylesheet" type="text/css" href="./Identidade Digital do Governo Federal_files/css/responsivo/tela-pequena.css">
+    <link media="screen" rel="stylesheet" type="text/css" href="./Identidade Digital do Governo Federal_files/css/base/grid.css">
+    <link rel="stylesheet" type="text/css" href="./Identidade Digital do Governo Federal_files/css/base/devel.css">
+    <link media="print" rel="stylesheet" type="text/css" href="./Identidade Digital do Governo Federal_files/css/base/impressao.css">
+    <link media="screen" rel="stylesheet" type="text/css" href="./Identidade Digital do Governo Federal_files/css/componentes/acessibilidade.css">
+    <link media="screen" rel="stylesheet" type="text/css" href="./Identidade Digital do Governo Federal_files/css/componentes/carousel.css">
+    <link media="screen" rel="stylesheet" type="text/css" href="./Identidade Digital do Governo Federal_files/css/componentes/cepimate.css">
+
+    <script src="./Identidade Digital do Governo Federal_files/js/componentes/cookies.js"></script>
+    <script src="./Identidade Digital do Governo Federal_files/js/componentes/carousel.js"></script>
+    <script src="./Identidade Digital do Governo Federal_files/js/componentes/geral.js"></script>
+</head>
+<body>
+<script src="./Identidade Digital do Governo Federal_files/js/componentes/acessibilidade.js"></script>
+<div id="barra-brasil"></div>
+<div id="tudo">
+    <header>
+        <div id="cabecalho">
+            <div>
+                <div id="barra-atalhos">
+                    <div class="legenda screen-reader-text">Menu de atalhos</div>
+                    <ul>
+                        <li><a accesskey="1" href="#secao-conteudo" id="link-conteudo">Ir para o conteúdo <span>1</span></a></li>
+                        <li><a accesskey="2" href="#secao-menu" id="link-navegacao">Ir para o menu <span>2</span></a></li>
+                        <li><a accesskey="3" href="#busca-portal" id="link-buscar">Ir para a busca <span>3</span></a></li>
+                        <li class="last-item"><a accesskey="4" href="#secao-rodape" id="link-rodape">Ir para o rodapé <span>4</span></a></li>
+                    </ul>
+                </div>
+                <div id="barra-idiomas">
+                    <div class="legenda screen-reader-text">Menu de idiomas</div>
+                    <ul><li><a href="#">English</a></li></ul>
+                </div>
+                <div id="barra-acessibilidade">
+                    <div class="legenda screen-reader-text">Menu de acessibilidade</div>
+                    <ul>
+                        <li><a href="#">Acessibilidade</a></li>
+                        <li><a onclick="window.acessibilidade.altoContraste.alternar();" href="#">Alto contraste</a></li>
+                        <li><a href="#">Mapa do site</a></li>
+                    </ul>
+                </div>
+
+                <div id="titulo">
+                    <a href="index.html" class="cepimate-titulo-link">
+                        <img src="./Identidade Digital do Governo Federal_files/img/logos/cepimate_transparente.png" alt="Logo CEPIMATE" class="cepimate-logo">
+                        <div>
+                            <div class="denominacao">Instituto Federal de Educação, Ciência e Tecnologia de São Paulo</div>
+                            <h1>CEPIMATE</h1>
+                            <div class="subordinacao">Centro de Pesquisa e Inovação em Materiais e Estruturas</div>
+                        </div>
+                    </a>
+                </div>
+
+                <form class="busca-geral" action="#">
+                    <fieldset id="barra-busca">
+                        <legend>Ferramenta de busca</legend>
+                        <label for="busca-portal">Buscar no portal</label>
+                        <input name="busca-portal" type="text" size="18" title="Buscar no portal" placeholder="Buscar no portal" id="busca-portal">
+                        <input type="submit" value="Buscar no portal">
+                    </fieldset>
+                </form>
+
+                <div id="barra-servicos">
+                    <div>
+                        <div class="legenda screen-reader-text">Menu de serviços</div>
+                        <ul>
+                            <li><a href="sobre.html" title="Sobre">Sobre</a></li>
+                            <li><a href="parcerias.html" title="Parcerias">Parcerias</a></li>
+                            <li><a href="projetos.html" title="Projetos">Projetos</a></li>
+                            <li><a href="laboratorios.html" title="Laboratórios">Laboratórios</a></li>
+                            <li><a href="pesquisadores.html" title="Pesquisadores">Pesquisadores</a></li>
+                            <li><a href="patentes.html" title="Patentes">Patentes</a></li>
+                            <li><a href="servicos.html" title="Serviços">Serviços</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="titulo-menu-retratil" class="">
+        <a href="javascript:;" onclick="alternarMenuRetratil()"><span class="screen-reader-text">Ativar menu principal</span></a>
+    </div>
+
+    <div id="central">
+        <nav id="menu-lateral">
+            <a name="secao-menu" id="secao-menu" class="screen-reader-text">Menu principal</a>
+            <div class="menu-relevancia">
+                <div class="screen-reader-text legenda">Menu de relevância</div>
+                <ul>
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3 com conteúdo mais extenso</a></li>
+                </ul>
+            </div>
+            <div class="bloco">
+                <div class="legenda">Menu bloco 1</div>
+                <ul>
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                </ul>
+            </div>
+            <div class="bloco">
+                <div class="legenda">Menu bloco 2</div>
+                <ul>
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2 com conteúdo mais extenso</a></li>
+                </ul>
+            </div>
+            <div class="bloco centrais-de-conteudos">
+                <div class="legenda">Centrais de Conteúdos</div>
+                <div>
+                    <ul>
+                        <li class="videos"><a href="#">Vídeos</a></li>
+                        <li class="audios"><a href="#">Áudios</a></li>
+                        <li class="fotos"><a href="#">Imagens</a></li>
+                        <li class="publicacoes"><a href="#">Infográficos</a></li>
+                        <li class="infograficos"><a href="#">Publicações</a></li>
+                        <li class="dadosabertos"><a href="#">Dados Abertos</a></li>
+                        <li class="aplicativos"><a href="#">Aplicativos App e etc.</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="barra-breadcrumb">
+            <span class="legenda screen-reader-text">Localização da página</span>
+            <span id="breadcrumbs-you-are-here">Você está aqui:</span>
+            <span id="breadcrumbs-home"><a href="index.html">Página Inicial</a></span>
+            <span class="cepimate-breadcrumb-separador">›</span>
+            <span>Sobre</span>
+        </div>
+
+
+        <!-- ================= MIOLO ================= -->
+        <div id="area-conteudo">
+            <style>
+                /* Patentes – Guia de Estilo do Portal Institucional Padrão
+                   Paleta: #195128 #F7C514 #3E67B1 #ECEDF1 · #F18F20 #18A54B #21376C
+                   Texto: Arial 15px/21px #172938 · Caixas: borda 1px, raio 4px */
+
+                .pt-hero {
+                    display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px;
+                    padding: 28px 24px; margin-bottom: 28px; color: #fff;
+                    border-radius: 4px; border-bottom: 6px solid #F7C514;
+                    background: linear-gradient(to top, #00510F, #17882C); /* escuro→claro, base→topo */
+                }
+                .pt-hero-texto { flex: 1 1 380px; }
+                .pt-hero h3 { margin: 0 0 8px; font-size: 26px; line-height: 32px; color: #fff; }
+                .pt-hero p { margin: 0; font-size: 16px; line-height: 23px; color: #fff; }
+
+                .pt-resumo { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 32px; }
+                .pt-resumo div {
+                    padding: 16px; text-align: center; background: #ECEDF1;
+                    border: 1px solid #d3d5d9; border-top: 4px solid #3E67B1; border-radius: 4px;
+                }
+                .pt-resumo strong { display: block; font-size: 36px; line-height: 40px; color: #21376C; }
+                .pt-resumo span { font-size: 13px; font-weight: bold; text-transform: uppercase; letter-spacing: .5px; color: #172938; }
+
+                .pt-titulo-secao { margin: 0 0 12px; font-size: 22px; color: #21376C; }
+
+                .pt-grade { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; margin-bottom: 36px; }
+
+                .pt-card {
+                    --cor: #3E67B1; --cor-texto: #fff;
+                    display: flex; flex-direction: column;
+                    background: #fff; border: 1px solid #d3d5d9; border-radius: 4px; overflow: hidden;
+                    box-shadow: 0 2px 4px rgba(23,41,56,.08);
+                    transition: box-shadow .2s, transform .2s;
+                }
+                .pt-card:hover { box-shadow: 0 6px 16px rgba(23,41,56,.18); transform: translateY(-2px); }
+                .pt-card.pt-software { --cor: #195128; }
+                .pt-card.pt-destaque { grid-column: 1 / -1; border-left: 6px solid #F7C514; }
+
+                .pt-chapeu {
+                    display: flex; justify-content: space-between; align-items: center; gap: 8px;
+                    padding: 8px 16px; background: var(--cor); color: var(--cor-texto);
+                    font-size: 13px; font-weight: bold; text-transform: uppercase; letter-spacing: .5px;
+                }
+                .pt-selo { padding: 3px 10px; border-radius: 4px; background: #F7C514; color: #172938; font-size: 12px; font-weight: bold; }
+
+                .pt-corpo { display: flex; flex-direction: column; gap: 14px; padding: 16px; flex: 1; }
+                .pt-card h4 { margin: 0; font-size: 19px; line-height: 24px; color: #21376C; }
+                .pt-destaque h4 { font-size: 22px; line-height: 28px; }
+
+                .pt-numero {
+                    padding: 10px 14px; background: #ECEDF1; border-left: 4px solid var(--cor); border-radius: 4px;
+                }
+                .pt-numero small { display: block; font-size: 12px; font-weight: bold; text-transform: uppercase; letter-spacing: .5px; color: #3E67B1; }
+                .pt-numero strong { font-size: 20px; line-height: 26px; color: #172938; letter-spacing: .5px; }
+
+                .pt-dados { margin: 0; font-size: 15px; line-height: 21px; color: #172938; }
+                .pt-dados div { padding: 8px 0; border-top: 1px solid #ECEDF1; }
+                .pt-dados dt { font-size: 12px; font-weight: bold; text-transform: uppercase; letter-spacing: .5px; color: #3E67B1; }
+                .pt-dados dd { margin: 2px 0 0; }
+                .pt-dados a { color: #2c67cd; }
+                .pt-dados a:hover { color: #172938; }
+                .pt-destaque .pt-dados { display: grid; grid-template-columns: repeat(2, 1fr); column-gap: 24px; }
+
+                /* Tipos de proteção */
+                .pt-tipos { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-bottom: 36px; }
+                .pt-tipo { padding: 16px; border: 1px solid #d3d5d9; border-top: 4px solid #F7C514; border-radius: 4px; background: #fff; font-size: 15px; line-height: 21px; color: #172938; }
+                .pt-tipo strong { display: block; margin-bottom: 4px; font-size: 17px; color: #21376C; }
+
+                .pt-contato {
+                    padding: 24px; margin-bottom: 16px; text-align: center; color: #fff;
+                    border-radius: 4px; background: linear-gradient(to top, #21376C, #3E67B1);
+                }
+                .pt-contato h3 { margin: 0 0 8px; color: #fff; }
+                .pt-contato p { margin: 0 0 16px; color: #fff; }
+                .pt-btn {
+                    display: inline-block; padding: 11px 22px; border: 2px solid #F7C514; border-radius: 4px;
+                    background: #F7C514; color: #172938 !important; font-weight: bold; font-size: 15px;
+                    text-decoration: none; text-transform: uppercase; letter-spacing: .4px; transition: background .2s, color .2s;
+                }
+                .pt-btn:hover, .pt-btn:focus { background: #fff; border-color: #fff; color: #195128 !important; }
+
+                @media (max-width: 768px) {
+                    .pt-grade, .pt-resumo, .pt-tipos, .pt-destaque .pt-dados { grid-template-columns: 1fr; }
+                    .pt-hero h3 { font-size: 22px; line-height: 28px; }
+                }
+            </style>
+
+            <main class="grid">
+                <a name="secao-conteudo" id="secao-conteudo" class="screen-reader-text"></a>
+                <h2>Patentes</h2>
+
+                <section class="pt-hero">
+                    <div class="pt-hero-texto">
+                        <h3>Inovação protegida</h3>
+                        <p>
+                            Propriedade intelectual desenvolvida nas linhas de atuação do CEPIMATE:
+                            sensores para monitoramento de trincas, manufatura aditiva e software de
+                            análise de dados.
+                        </p>
+                    </div>
+                </section>
+
+                <div class="pt-resumo">
+                    <div><strong>4</strong><span>Itens de propriedade intelectual</span></div>
+                    <div><strong>3</strong><span>Patentes</span></div>
+                    <div><strong>1</strong><span>Registro de software</span></div>
+                </div>
+
+                <h3 class="pt-titulo-secao">Propriedade intelectual do CEPIMATE</h3>
+
+                <div class="pt-grade">
+
+                    <!-- 1 · Sensor eletromagnético (concedida) -->
+                    <article class="pt-card pt-destaque">
+                        <div class="pt-chapeu"><span>Patente · Privilégio de Inovação</span><span class="pt-selo">Concedida</span></div>
+                        <div class="pt-corpo">
+                            <h4>Dispositivo sensor eletromagnético para detecção e monitoramento de trincas em materiais condutores de eletricidade</h4>
+                            <div class="pt-numero"><small>Número do registro</small><strong>BR 10 2020 001134-0</strong></div>
+                            <dl class="pt-dados">
+                                <div><dt>Inventores</dt><dd>Emerson dos Reis; Raul Gaspari Santos (<a href="pesquisadores.html">ver pesquisadores</a>).</dd></div>
+                                <div><dt>Instituição de registro</dt><dd>INPI – Instituto Nacional da Propriedade Industrial</dd></div>
+                                <div><dt>Depósito</dt><dd>17/01/2020</dd></div>
+                                <div><dt>Concessão</dt><dd>27/07/2025</dd></div>
+                            </dl>
+                        </div>
+                    </article>
+
+                    <!-- 2 · Sensor de emissão acústica -->
+                    <article class="pt-card">
+                        <div class="pt-chapeu"><span>Patente</span><!-- PREENCHER: status (ex.: Depositada) --></div>
+                        <div class="pt-corpo">
+                            <h4>Sensor de emissão acústica para identificação de trincas em componentes mecânicos</h4>
+                            <div class="pt-numero"><small>Número</small><strong>BR 10 2025 028069 8</strong></div>
+                            <dl class="pt-dados">
+                                <div><dt>Instituição de registro</dt><dd>INPI – Instituto Nacional da Propriedade Industrial</dd></div>
+                                <!-- PREENCHER: inventores e data de depósito -->
+                            </dl>
+                        </div>
+                    </article>
+
+                    <!-- 3 · Software -->
+                    <article class="pt-card pt-software">
+                        <div class="pt-chapeu"><span>Programa de computador</span><span class="pt-selo">Registrado</span></div>
+                        <div class="pt-corpo">
+                            <h4>Software para aquisição e tratamento de dados de emissão acústica</h4>
+                            <div class="pt-numero"><small>Registro INPI</small><strong>BR 51 2025 006367-9</strong></div>
+                            <dl class="pt-dados">
+                                <div><dt>Instituição de registro</dt><dd>INPI – Instituto Nacional da Propriedade Industrial</dd></div>
+                                <!-- PREENCHER: autores e data de registro -->
+                            </dl>
+                        </div>
+                    </article>
+
+                    <!-- 4 · Recobrimento com lâminas -->
+                    <article class="pt-card">
+                        <div class="pt-chapeu"><span>Patente</span><!-- PREENCHER: status (ex.: Depositada) --></div>
+                        <div class="pt-corpo">
+                            <h4>Sistema de recobrimento com lâminas de ação sequencial para manufatura aditiva por fotopolimerização em cuba</h4>
+                            <div class="pt-numero"><small>Número</small><strong>BR 10 2021 021544-5</strong></div>
+                            <dl class="pt-dados">
+                                <div><dt>Instituição de registro</dt><dd>INPI – Instituto Nacional da Propriedade Industrial</dd></div>
+                                <!-- PREENCHER: inventores e data de depósito -->
+                            </dl>
+                        </div>
+                    </article>
+
+                </div>
+
+                <h3 class="pt-titulo-secao">Tipos de proteção</h3>
+                <div class="pt-tipos">
+                    <div class="pt-tipo"><strong>Patente</strong>Proteção para invenções e modelos de utilidade, como dispositivos, sensores e processos, concedida pelo INPI.</div>
+                    <div class="pt-tipo"><strong>Registro de programa de computador</strong>Proteção para o código de softwares desenvolvidos pelos pesquisadores, também registrada no INPI.</div>
+                </div>
+
+                <section class="pt-contato">
+                    <h3>Interesse em conhecer ou licenciar uma tecnologia?</h3>
+                    <p>Fale com a equipe do CEPIMATE para saber mais sobre parcerias e transferência de tecnologia.</p>
+                    <a class="pt-btn" href="mailto:contato@exemplo.com?subject=Interesse%20em%20tecnologia%20do%20CEPIMATE">Entrar em contato</a>
+                </section>
+            </main>
+        </div>
+        <!-- ================= FIM DO MIOLO ================= -->
+    </div>
+         <div class="screen-reader-text"><div>Fim da página.</div></div>
+
+<script defer="defer" src="./Identidade Digital do Governo Federal_files/js/componentes/barra.js"></script>
+<script>
+    var elementosDesabilitadosJavascript = document.querySelectorAll('.js-necessario');
+    Array.prototype.forEach.call(elementosDesabilitadosJavascript, function (el) {
+        el.classList.remove('js-necessario');
+    });
+</script>
+
+<div><div vw="" class="enabled"><div vw-access-button="" class="active"></div><div vw-plugin-wrapper=""><div class="vw-plugin-top-wrapper"></div><div class="vw-links"><ul></ul></div></div></div></div>
+<script src="./Identidade Digital do Governo Federal_files/js/componentes/vlibras-plugin.js" type="text/javascript"></script>
+</div>
+</body>
+</html>
+
+

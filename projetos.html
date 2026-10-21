@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Projeto</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <link media="screen" rel="stylesheet" type="text/css" href="./Identidade Digital do Governo Federal_files/css/base/fonts.css">
+    <link rel="stylesheet" type="text/css" href="./Identidade Digital do Governo Federal_files/css/base/geral.css">
+    <link media="screen" rel="stylesheet" type="text/css" href="./Identidade Digital do Governo Federal_files/css/base/tema.css">
+    <link media="(min-width: 1024px)" rel="stylesheet" type="text/css" href="./Identidade Digital do Governo Federal_files/css/responsivo/tela-grande.css">
+    <link media="(min-width: 769px) and (max-width: 1023px)" rel="stylesheet" type="text/css" href="./Identidade Digital do Governo Federal_files/css/responsivo/tela-media.css">
+    <link media="(max-width: 768px)" rel="stylesheet" type="text/css" href="./Identidade Digital do Governo Federal_files/css/responsivo/tela-pequena.css">
+    <link media="screen" rel="stylesheet" type="text/css" href="./Identidade Digital do Governo Federal_files/css/base/grid.css">
+    <link rel="stylesheet" type="text/css" href="./Identidade Digital do Governo Federal_files/css/base/devel.css">
+    <link media="print" rel="stylesheet" type="text/css" href="./Identidade Digital do Governo Federal_files/css/base/impressao.css">
+    <link media="screen" rel="stylesheet" type="text/css" href="./Identidade Digital do Governo Federal_files/css/componentes/acessibilidade.css">
+    <link media="screen" rel="stylesheet" type="text/css" href="./Identidade Digital do Governo Federal_files/css/componentes/carousel.css">
+    <link media="screen" rel="stylesheet" type="text/css" href="./Identidade Digital do Governo Federal_files/css/componentes/cepimate.css">
+
+    <script src="./Identidade Digital do Governo Federal_files/js/componentes/cookies.js"></script>
+    <script src="./Identidade Digital do Governo Federal_files/js/componentes/carousel.js"></script>
+    <script src="./Identidade Digital do Governo Federal_files/js/componentes/geral.js"></script>
+</head>
+<body>
+<script src="./Identidade Digital do Governo Federal_files/js/componentes/acessibilidade.js"></script>
+<div id="barra-brasil"></div>
+<div id="tudo">
+    <header>
+        <div id="cabecalho">
+            <div>
+                <div id="barra-atalhos">
+                    <div class="legenda screen-reader-text">Menu de atalhos</div>
+                    <ul>
+                        <li><a accesskey="1" href="#secao-conteudo" id="link-conteudo">Ir para o conteúdo <span>1</span></a></li>
+                        <li><a accesskey="2" href="#secao-menu" id="link-navegacao">Ir para o menu <span>2</span></a></li>
+                        <li><a accesskey="3" href="#busca-portal" id="link-buscar">Ir para a busca <span>3</span></a></li>
+                        <li class="last-item"><a accesskey="4" href="#secao-rodape" id="link-rodape">Ir para o rodapé <span>4</span></a></li>
+                    </ul>
+                </div>
+                <div id="barra-idiomas">
+                    <div class="legenda screen-reader-text">Menu de idiomas</div>
+                    <ul><li><a href="#">English</a></li></ul>
+                </div>
+                <div id="barra-acessibilidade">
+                    <div class="legenda screen-reader-text">Menu de acessibilidade</div>
+                    <ul>
+                        <li><a href="#">Acessibilidade</a></li>
+                        <li><a onclick="window.acessibilidade.altoContraste.alternar();" href="#">Alto contraste</a></li>
+                        <li><a href="#">Mapa do site</a></li>
+                    </ul>
+                </div>
+
+                <div id="titulo">
+                    <a href="index.html" class="cepimate-titulo-link">
+                        <img src="./Identidade Digital do Governo Federal_files/img/logos/cepimate_transparente.png" alt="Logo CEPIMATE" class="cepimate-logo">
+                        <div>
+                            <div class="denominacao">Instituto Federal de Educação, Ciência e Tecnologia de São Paulo</div>
+                            <h1>CEPIMATE</h1>
+                            <div class="subordinacao">Centro de Pesquisa e Inovação em Materiais e Estruturas</div>
+                        </div>
+                    </a>
+                </div>
+
+                <form class="busca-geral" action="#">
+                    <fieldset id="barra-busca">
+                        <legend>Ferramenta de busca</legend>
+                        <label for="busca-portal">Buscar no portal</label>
+                        <input name="busca-portal" type="text" size="18" title="Buscar no portal" placeholder="Buscar no portal" id="busca-portal">
+                        <input type="submit" value="Buscar no portal">
+                    </fieldset>
+                </form>
+
+                <div id="barra-servicos">
+                    <div>
+                        <div class="legenda screen-reader-text">Menu de serviços</div>
+                        <ul>
+                            <li><a href="sobre.html" title="Sobre">Sobre</a></li>
+                            <li><a href="parcerias.html" title="Parcerias">Parcerias</a></li>
+                            <li><a href="projetos.html" title="Projetos">Projetos</a></li>
+                            <li><a href="laboratorios.html" title="Laboratórios">Laboratórios</a></li>
+                            <li><a href="pesquisadores.html" title="Pesquisadores">Pesquisadores</a></li>
+                            <li><a href="patentes.html" title="Patentes">Patentes</a></li>
+                            <li><a href="servicos.html" title="Serviços">Serviços</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="titulo-menu-retratil" class="">
+        <a href="javascript:;" onclick="alternarMenuRetratil()"><span class="screen-reader-text">Ativar menu principal</span></a>
+    </div>
+
+    <div id="central">
+        <nav id="menu-lateral">
+            <a name="secao-menu" id="secao-menu" class="screen-reader-text">Menu principal</a>
+            <div class="menu-relevancia">
+                <div class="screen-reader-text legenda">Menu de relevância</div>
+                <ul>
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3 com conteúdo mais extenso</a></li>
+                </ul>
+            </div>
+            <div class="bloco">
+                <div class="legenda">Menu bloco 1</div>
+                <ul>
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                </ul>
+            </div>
+            <div class="bloco">
+                <div class="legenda">Menu bloco 2</div>
+                <ul>
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2 com conteúdo mais extenso</a></li>
+                </ul>
+            </div>
+            <div class="bloco centrais-de-conteudos">
+                <div class="legenda">Centrais de Conteúdos</div>
+                <div>
+                    <ul>
+                        <li class="videos"><a href="#">Vídeos</a></li>
+                        <li class="audios"><a href="#">Áudios</a></li>
+                        <li class="fotos"><a href="#">Imagens</a></li>
+                        <li class="publicacoes"><a href="#">Infográficos</a></li>
+                        <li class="infograficos"><a href="#">Publicações</a></li>
+                        <li class="dadosabertos"><a href="#">Dados Abertos</a></li>
+                        <li class="aplicativos"><a href="#">Aplicativos App e etc.</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="barra-breadcrumb">
+            <span class="legenda screen-reader-text">Localização da página</span>
+            <span id="breadcrumbs-you-are-here">Você está aqui:</span>
+            <span id="breadcrumbs-home"><a href="index.html">Página Inicial</a></span>
+            <span class="cepimate-breadcrumb-separador">›</span>
+            <span>Projetos</span>
+        </div>
+
+               <!-- ================= MIOLO ================= -->
+        <div id="area-conteudo">
+            <style>
+                /* Projetos – baseado no Guia de Estilo do Portal Institucional Padrão
+                   Cores: #195128 / #F7C514 / #3E67B1 / #ECEDF1 (primárias) e #F18F20 / #18A54B / #21376C (secundárias)
+                   Texto: Arial 15px/21px, #172938 · Caixas: borda 1px, raio 4px */
+                .cp-intro { margin-bottom: 24px; }
+
+                .cp-resumo {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    margin: 0 0 32px;
+                    border-radius: 4px;
+                    overflow: hidden;
+                    background: linear-gradient(to top, #00510F, #17882C); /* degradê escuro→claro, base→topo */
+                    color: #fff;
+                }
+                .cp-resumo div { padding: 20px 16px; text-align: center; border-right: 1px solid rgba(255,255,255,.25); }
+                .cp-resumo div:last-child { border-right: 0; }
+                .cp-resumo strong { display: block; font-size: 38px; line-height: 42px; color: #FCDD4E; }
+                .cp-resumo span { font-size: 14px; text-transform: uppercase; letter-spacing: .5px; }
+
+                .cp-grade { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; margin-bottom: 32px; }
+
+                .cp-card {
+                    --cor: #3E67B1; --cor-texto: #fff;
+                    display: flex; flex-direction: column;
+                    background: #fff;
+                    border: 1px solid #d3d5d9;
+                    border-radius: 4px;
+                    overflow: hidden;
+                    box-shadow: 0 2px 4px rgba(23,41,56,.08);
+                    transition: box-shadow .2s, transform .2s;
+                }
+                .cp-card:hover { box-shadow: 0 6px 16px rgba(23,41,56,.18); transform: translateY(-2px); }
+
+                /* cor por financiador */
+                .cp-fapesp { --cor: #3E67B1; }
+                .cp-cnpq   { --cor: #195128; }
+                .cp-pibifsp{ --cor: #F7C514; --cor-texto: #172938; }
+                .cp-capes  { --cor: #F18F20; --cor-texto: #172938; }
+                .cp-fundep { --cor: #18A54B; }
+                .cp-outro  { --cor: #21376C; }
+
+                /* chapéu (sem cantos arredondados, como no guia) */
+                .cp-chapeu {
+                    display: flex; justify-content: space-between; gap: 8px;
+                    padding: 8px 16px;
+                    background: var(--cor); color: var(--cor-texto);
+                    font-size: 13px; font-weight: bold; text-transform: uppercase; letter-spacing: .5px;
+                }
+                .cp-corpo { padding: 16px; display: flex; flex-direction: column; gap: 12px; flex: 1; }
+                .cp-card h3 { margin: 0; font-size: 19px; line-height: 24px; color: #21376C; }
+                .cp-desc { margin: 0; font-size: 15px; line-height: 21px; color: #172938; }
+
+                .cp-dados { margin: 0; font-size: 15px; line-height: 21px; color: #172938; }
+                .cp-dados div { padding: 8px 0; border-top: 1px solid #ECEDF1; }
+                .cp-dados dt { font-size: 12px; font-weight: bold; text-transform: uppercase; letter-spacing: .5px; color: #3E67B1; }
+                .cp-dados dd { margin: 2px 0 0; }
+
+                .cp-selos { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-top: 4px; }
+                .cp-selo {
+                    display: inline-block; padding: 3px 10px; border-radius: 4px;
+                    background: var(--cor); color: var(--cor-texto);
+                    font-size: 13px; font-weight: bold;
+                }
+                .cp-selo.cp-empresa { background: #ECEDF1; color: #21376C; border: 1px solid #3E67B1; }
+
+                /* bloco de desenvolvimentos tecnológicos */
+                .cp-destaque { border: 1px solid #d3d5d9; border-radius: 4px; overflow: hidden; margin-bottom: 32px; box-shadow: 0 2px 4px rgba(23,41,56,.08); }
+                .cp-destaque .cp-chapeu { background: #21376C; color: #fff; font-size: 14px; padding: 10px 16px; }
+                .cp-destaque ul { list-style: none; margin: 0; padding: 0; background: #ECEDF1; }
+                .cp-destaque li { padding: 14px 16px 14px 20px; border-bottom: 1px solid #d3d5d9; border-left: 6px solid #F7C514; font-size: 15px; line-height: 21px; color: #172938; }
+                .cp-destaque li:last-child { border-bottom: 0; }
+                .cp-tipo {
+                    display: inline-block; margin-right: 8px; padding: 2px 8px; border-radius: 4px;
+                    background: #195128; color: #fff; font-size: 12px; font-weight: bold; text-transform: uppercase;
+                }
+                .cp-tipo.cp-patente { background: #A41E22; }
+                .cp-tipo.cp-registro { background: #3E67B1; }
+
+                @media (max-width: 768px) {
+                    .cp-grade { grid-template-columns: 1fr; }
+                    .cp-resumo { grid-template-columns: 1fr; }
+                    .cp-resumo div { border-right: 0; border-bottom: 1px solid rgba(255,255,255,.25); }
+                }
+            </style>
+
+            <main class="grid">
+                <a name="secao-conteudo" id="secao-conteudo" class="screen-reader-text"></a>
+                <h2>Projetos</h2>
+
+                <div class="bloco cp-intro">
+                    <p>
+                        Projetos de pesquisa e desenvolvimento tecnológico concluídos pelo CEPIMATE entre
+                        2021 e 2026, relacionados às suas linhas de atuação em materiais e estruturas.
+                    </p>
+                </div>
+
+                <!-- Resumo em números -->
+                <div class="cp-resumo" role="list">
+                    <div role="listitem"><strong>14</strong><span>Projetos concluídos</span></div>
+                    <div role="listitem"><strong>4</strong><span>Desenvolvimentos tecnológicos</span></div>
+                    <div role="listitem"><strong>2021–2026</strong><span>Período</span></div>
+                </div>
+
+                <!-- Grade de projetos -->
+                <div class="cp-grade">
+
+                    <article class="cp-card cp-fundep">
+                        <div class="cp-chapeu"><span>Fev/2023 – Dez/2025</span><span>Pesquisa</span></div>
+                        <div class="cp-corpo">
+                            <h3>DESCAAL – Demonstrador de Estampagem de Superfície Classe A em Alumínio</h3>
+                            <p class="cp-desc">Projeto FUNDEP 27194.02.02/2021.01-00. Colaboração com execução de caracterização mecânica no LabMat.</p>
+                            <dl class="cp-dados">
+                                <div><dt>Participantes</dt><dd>Profa. Dra. Tamires de Souza Nossa; 1 bolsista de iniciação científica (aluno de Engenharia Mecânica).</dd></div>
+                            </dl>
+                            <div class="cp-selos"><span class="cp-selo">FUNDEP – Rota 2030</span></div>
+                        </div>
+                    </article>
+
+                    <article class="cp-card cp-fapesp">
+                        <div class="cp-chapeu"><span>Nov/2021 – Out/2022</span><span>Desenvolvimento</span></div>
+                        <div class="cp-corpo">
+                            <h3>SAFETUBE – Dispositivo para garantia da integridade e segurança de tubulações subterrâneas</h3>
+                            <p class="cp-desc">Desenvolvimento de dispositivo para garantia da integridade e segurança de tubulações subterrâneas durante a perfuração direcional horizontal, com uso de inteligência para monitoramento e rastreabilidade.</p>
+                            <dl class="cp-dados">
+                                <div><dt>Participantes</dt><dd>Profa. Dra. Tamires de Souza Nossa; Prof. Dr. Bruno Fernando Gianelli.</dd></div>
+                            </dl>
+                            <div class="cp-selos"><span class="cp-selo">FAPESP – PIPE/PAPPE Subvenção Fase III</span></div>
+                        </div>
+                    </article>
+
+                    <article class="cp-card cp-cnpq">
+                        <div class="cp-chapeu"><span>2022 – 2025</span><span>Pesquisa</span></div>
+                        <div class="cp-corpo">
+                            <h3>Otimização do peso de rotores em baterias eletromecânicas (flywheel)</h3>
+                            <dl class="cp-dados">
+                                <div><dt>Participantes</dt><dd>Fabio da Silva Bortoli; Daniel Coppede.</dd></div>
+                            </dl>
+                            <div class="cp-selos"><span class="cp-selo">CNPq</span></div>
+                        </div>
+                    </article>
+
+                    <article class="cp-card cp-outro">
+                        <div class="cp-chapeu"><span>2023</span><span>Desenvolvimento</span></div>
+                        <div class="cp-corpo">
+                            <h3>Manufatura aditiva de cerâmica avançada em impressora 3D comercial não dedicada</h3>
+                            <dl class="cp-dados">
+                                <div><dt>Participantes</dt><dd>Italo Leite de Camargo (coordenador); Daniel Martins; Fernando Pinheiros de Moraes.</dd></div>
+                            </dl>
+                            <div class="cp-selos">
+                                <span class="cp-selo">Secretaria de Educação Profissional e Tecnológica</span>
+                                <span class="cp-selo cp-empresa">Solcera do Brasil Materiais Avançados Ltda.</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="cp-card cp-cnpq">
+                        <div class="cp-chapeu"><span>2023 – 2024</span><span>Pesquisa</span></div>
+                        <div class="cp-corpo">
+                            <h3>Resistência de embutimento em madeiras de peroba do norte</h3>
+                            <p class="cp-desc">Segundo as normas ABNT NBR 7190:2022 e ASTM D5764:2018.</p>
+                            <dl class="cp-dados">
+                                <div><dt>Participantes</dt><dd>Rafael dos Santos; Julio Cesar Molina; Lucas Daniel Vieira de Carvalho.</dd></div>
+                            </dl>
+                            <div class="cp-selos"><span class="cp-selo">CNPq</span></div>
+                        </div>
+                    </article>
+
+                    <article class="cp-card cp-pibifsp">
+                        <div class="cp-chapeu"><span>2023</span><span>Pesquisa</span></div>
+                        <div class="cp-corpo">
+                            <h3>Resistência de embutimento em madeiras de cambará</h3>
+                            <p class="cp-desc">Segundo as normas ABNT NBR 7190:2022 e ASTM D5764:2018.</p>
+                            <dl class="cp-dados">
+                                <div><dt>Participantes</dt><dd>Rafael dos Santos; Julio Cesar Molina; Gustavo Ruivo Vieira Nunes.</dd></div>
+                            </dl>
+                            <div class="cp-selos"><span class="cp-selo">PIBIFSP</span></div>
+                        </div>
+                    </article>
+
+                    <article class="cp-card cp-pibifsp">
+                        <div class="cp-chapeu"><span>2022</span><span>Pesquisa</span></div>
+                        <div class="cp-corpo">
+                            <h3>Resistência de embutimento de pinos metálicos em madeiras de pinus</h3>
+                            <p class="cp-desc">Segundo as normas ABNT NBR 7190 e ASTM D5764.</p>
+                            <dl class="cp-dados">
+                                <div><dt>Participantes</dt><dd>Rafael dos Santos; Julio Cesar Molina; Pedro Henrique Medeiros Fortes.</dd></div>
+                            </dl>
+                            <div class="cp-selos"><span class="cp-selo">PIBIFSP</span></div>
+                        </div>
+                    </article>
+
+                    <article class="cp-card cp-pibifsp">
+                        <div class="cp-chapeu"><span>2022</span><span>Pesquisa</span></div>
+                        <div class="cp-corpo">
+                            <h3>Resistência de embutimento de pinos metálicos em madeiras de pinus</h3>
+                            <p class="cp-desc">Segundo as normas ASTM D5764 e EN 383.</p>
+                            <dl class="cp-dados">
+                                <div><dt>Participantes</dt><dd>Rafael dos Santos; Julio Cesar Molina; Rafael Massatoshi Tomita Tanabe.</dd></div>
+                            </dl>
+                            <div class="cp-selos"><span class="cp-selo">PIBIFSP</span></div>
+                        </div>
+                    </article>
+
+                    <article class="cp-card cp-outro">
+                        <div class="cp-chapeu"><span>2022</span><span>Pesquisa</span></div>
+                        <div class="cp-corpo">
+                            <h3>Resistência de embutimento de pinos metálicos em madeiras de pinus</h3>
+                            <p class="cp-desc">Segundo as normas ABNT NBR 7190 e EN 383.</p>
+                            <dl class="cp-dados">
+                                <div><dt>Participantes</dt><dd>Rafael dos Santos; Julio Cesar Molina; Mário Brenner Ferreira da Silva Leite.</dd></div>
+                                <div><dt>Financiamento</dt><dd>Não houve.</dd></div>
+                            </dl>
+                        </div>
+                    </article>
+
+                    <article class="cp-card cp-cnpq">
+                        <div class="cp-chapeu"><span>2021 – 2025</span><span>Pesquisa</span></div>
+                        <div class="cp-corpo">
+                            <h3>Compósitos à base de cobre reforçado com óxido de grafeno: avaliação de métodos de mistura</h3>
+                            <p class="cp-desc">Investigou processamento por metalurgia do pó, métodos de mistura, compactação, sinterização e caracterização de compósitos de matriz de cobre reforçados com óxido de grafeno. A produção resultante inclui trabalhos sobre métodos de mistura e processamento de cobre publicados em 2024.</p>
+                            <dl class="cp-dados">
+                                <div><dt>Participantes</dt><dd>Caique Movio Pereira de Souza; Marcos Massi (orientador); Antonio Augusto Couto (coorientador); J. R. C. Cunali Junior; M. R. Silva; V. T. Santos; F. G. Lobo; G. A. Santos; G. F. C. Almeida.</dd></div>
+                            </dl>
+                            <div class="cp-selos">
+                                <span class="cp-selo">CNPq – bolsa de doutorado</span>
+                                <span class="cp-selo cp-empresa">Universidade Presbiteriana Mackenzie</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="cp-card cp-capes">
+                        <div class="cp-chapeu"><span>Concluído em 2021</span><span>Pesquisa</span></div>
+                        <div class="cp-corpo">
+                            <h3>Análise do comportamento de falhas e caracterização de materiais empregados em próteses de quadril</h3>
+                            <p class="cp-desc">Abordou resistência à fadiga, caracterização mecânica e microestrutural e avaliação de ligas metálicas empregadas em implantes, especialmente Ti-6Al-4V e Co-28Cr-6Mo. Os resultados incluem trabalhos de caracterização de Ti-6Al-4V e análise de ensaios de fadiga publicados em 2022.</p>
+                            <dl class="cp-dados">
+                                <div><dt>Participantes</dt><dd>Caique Movio Pereira de Souza; Wilson Carlos da Silva Junior; Renato Chaves Souza; Vanderlei Araujo Militão; Isaias Gouveia Silva; Rene Ramos de Oliveira; Vanessa Seriacopi.</dd></div>
+                            </dl>
+                            <div class="cp-selos">
+                                <span class="cp-selo">CAPES – bolsa de mestrado</span>
+                                <span class="cp-selo cp-empresa">Instituto Federal de São Paulo</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="cp-card cp-outro">
+                        <div class="cp-chapeu"><span>2023 – 2025</span><span>Pesquisa</span></div>
+                        <div class="cp-corpo">
+                            <h3>Detecção e diagnóstico de falhas em rolamentos com sinais de vibração, sensores MEMS e inteligência artificial</h3>
+                            <p class="cp-desc">Pesquisa com acelerômetros MEMS de baixo custo e redes neurais convolucionais para detecção de falhas em rolamentos, com resultados apresentados no COBEM 2023 e posteriormente publicados. Em 2025, há trabalho correlato empregando machine learning (kNN e árvore de decisão) para análise de falhas em rolamentos autocompensadores.</p>
+                            <dl class="cp-dados">
+                                <div><dt>Participantes</dt><dd>Lucas Almeida Willenshofer; Caique Movio Pereira de Souza; Rogerio Daniel Dantas; Rene Ramos de Oliveira; Vanessa Seriacopi; Wilson Carlos da Silva Junior.</dd></div>
+                                <div><dt>Financiamento</dt><dd>Não especificado.</dd></div>
+                            </dl>
+                            <div class="cp-selos"><span class="cp-selo cp-empresa">IFSP / LADECAM</span></div>
+                        </div>
+                    </article>
+
+                    <article class="cp-card cp-fapesp">
+                        <div class="cp-chapeu"><span>Fev/2021 – Abr/2022</span><span>Pesquisa</span></div>
+                        <div class="cp-corpo">
+                            <h3>Manufatura aditiva por deposição de energia direcionada em Inconel 625 e 718 para aplicação aeroespacial</h3>
+                            <p class="cp-desc">Avaliação mecânica e caracterização microestrutural de peças fabricadas por manufatura aditiva nas ligas Inconel 625 e 718.</p>
+                            <dl class="cp-dados">
+                                <div><dt>Participantes</dt><dd>Julian Arnaldo Avila Diaz; Crystopher Cardoso de Brito; Guillermo Requena; João Pedro de Sousa Oliveira; Marcelo Falcão de Oliveira; Milton Sergio Fernandes de Lima; Reginaldo Teixeira Coelho.</dd></div>
+                            </dl>
+                            <div class="cp-selos"><span class="cp-selo">FAPESP – Auxílio à Pesquisa Regular, proc. 2020/09079-2</span></div>
+                        </div>
+                    </article>
+
+                    <article class="cp-card cp-fapesp">
+                        <div class="cp-chapeu"><span>2022 – 2025</span><span>Desenvolvimento</span></div>
+                        <div class="cp-corpo">
+                            <h3>AERIALL – Dispositivo de filtragem de ar à base de espuma de alumínio</h3>
+                            <p class="cp-desc">Dispositivo de filtragem de ar com menor queda de pressão, visando economia de energia nos sistemas HVAC de prédios comerciais e unidades hospitalares.</p>
+                            <dl class="cp-dados">
+                                <div><dt>Participantes</dt><dd>Vagner Romito de Mendonça (pesquisador principal); Bruno Fernando Gianelli (pesquisador associado).</dd></div>
+                                <div><dt>Execução</dt><dd>Fase 1: 01/07/2022 a 31/03/2023 · Fase 2: 01/10/2023 a 31/12/2025.</dd></div>
+                            </dl>
+                            <div class="cp-selos">
+                                <span class="cp-selo">FAPESP</span>
+                                <span class="cp-selo cp-empresa">Al7</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <!-- Desenvolvimentos tecnológicos -->
+                <section class="cp-destaque">
+                    <div class="cp-chapeu"><span>Desenvolvimentos tecnológicos</span></div>
+                    <ul>
+                        <li><span class="cp-tipo cp-patente">Patente</span>Sensor eletromagnético para monitoramento de trincas em materiais metálicos (nº BR 102020001134-0 A2).</li>
+                        <li><span class="cp-tipo cp-patente">Patente</span>Sensor de emissão acústica para identificação de trincas em componentes mecânicos (nº BR 10 2025 028069 8).</li>
+                        <li><span class="cp-tipo cp-registro">Registro INPI</span>Software para aquisição e tratamento de dados de emissão acústica (nº BR512025006367-9).</li>
+                        <li><span class="cp-tipo">Parceria</span>Estação de carregamento de veículos elétricos em sistema off-grid, em parceria empresa x universidade, com financiamento da FAPESC (edital nº 55/2022).</li>
+                    </ul>
+                </section>
+            </main>
+        </div>
+        <!-- ================= FIM DO MIOLO ================= -->
+    </div>
+    <div class="screen-reader-text"><div>Fim da página.</div></div>
+
+<script defer="defer" src="./Identidade Digital do Governo Federal_files/js/componentes/barra.js"></script>
+<script>
+    var elementosDesabilitadosJavascript = document.querySelectorAll('.js-necessario');
+    Array.prototype.forEach.call(elementosDesabilitadosJavascript, function (el) {
+        el.classList.remove('js-necessario');
+    });
+</script>
+
+<div><div vw="" class="enabled"><div vw-access-button="" class="active"></div><div vw-plugin-wrapper=""><div class="vw-plugin-top-wrapper"></div><div class="vw-links"><ul></ul></div></div></div></div>
+<script src="./Identidade Digital do Governo Federal_files/js/componentes/vlibras-plugin.js" type="text/javascript"></script>
+</div>
+</body>
+</html>

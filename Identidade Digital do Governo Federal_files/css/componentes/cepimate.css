@@ -1,0 +1,302 @@
+
+
+:root {
+  --cepimate-verde: #3e9142;
+  --cepimate-verde-escuro: #2e7a32;
+  --cepimate-cinza-titulo: #4a4a4a;
+  --cepimate-cinza-texto: #6b6b6b;
+}
+
+
+#cabecalho {
+  border-top: 6px solid var(--cepimate-verde);
+}
+
+.cepimate-breadcrumb-separador {
+  margin: 0 6px;
+  color: #999;
+}
+
+.cepimate-filtro-linha {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #555;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.cepimate-filtro-linha svg {
+  width: 16px;
+  height: 16px;
+  fill: #555;
+}
+
+#titulo a.cepimate-titulo-link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.cepimate-logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 2px solid var(--cepimate-verde);
+  object-fit: contain;
+  padding: 6px;
+  flex-shrink: 0;
+}
+
+/* ---------- Caixa verde de descrição (Home) ---------- */
+.cepimate-descricao {
+  background: var(--cepimate-verde);
+  color: #ffffff;
+  border-radius: 24px;
+  padding: 32px 48px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 40px auto;
+  max-width: 780px;
+}
+
+/* ---------- Fileira de logos parceiros ---------- */
+.cepimate-parceiros {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  padding: 30px 0 50px;
+}
+
+.cepimate-parceiros img {
+  max-height: 70px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* ---------- Grid de cards de projeto ---------- */
+.cepimate-projetos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  padding: 30px 0 50px;
+}
+
+.cepimate-card {
+  text-align: center;
+}
+
+.cepimate-card-titulo {
+  color: var(--cepimate-verde);
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0 0 8px;
+}
+
+.cepimate-card-linha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+.cepimate-card-linha .marca {
+  width: 10px;
+  height: 10px;
+  border: 2px solid var(--cepimate-verde);
+  flex-shrink: 0;
+}
+
+.cepimate-card-linha .marca.esquerda {
+  border-right: none;
+  border-bottom: none;
+}
+
+.cepimate-card-linha .marca.direita {
+  border-left: none;
+  border-top: none;
+}
+
+.cepimate-card-linha .traco {
+  flex: 1;
+  height: 2px;
+  background: var(--cepimate-verde);
+}
+
+.cepimate-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.cepimate-card-rodape {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 14px;
+  color: #666;
+}
+
+.cepimate-card-categoria {
+  font-size: 18px;
+  color: #444;
+}
+
+.cepimate-card-meta {
+  text-align: right;
+  font-size: 12px;
+  color: #999;
+}
+
+.cepimate-card-meta .autor-label {
+  display: block;
+  font-size: 11px;
+}
+
+/* ---------- Seção: Números do CEPIMATE ---------- */
+.cepimate-numeros {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  padding: 40px 0;
+  background: #f5f6f4;
+  margin: 30px 0;
+  border-radius: 12px;
+}
+
+.cepimate-numero {
+  text-align: center;
+}
+
+.cepimate-numero .valor {
+  display: block;
+  font-size: 38px;
+  font-weight: 800;
+  color: var(--cepimate-verde);
+  line-height: 1;
+}
+
+.cepimate-numero .rotulo {
+  display: block;
+  margin-top: 6px;
+  font-size: 13px;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+
+/* ---------- Seção: Linhas de pesquisa em destaque ---------- */
+.cepimate-secao-titulo {
+  font-size: 22px;
+  color: var(--cepimate-verde);
+  text-align: center;
+  margin: 10px 0 24px;
+}
+
+.cepimate-linhas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding-bottom: 30px;
+}
+
+.cepimate-linha-card {
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  padding: 20px;
+  transition: box-shadow .2s ease;
+}
+
+.cepimate-linha-card:hover {
+  box-shadow: 0 4px 14px rgba(0,0,0,.08);
+}
+
+.cepimate-linha-card .num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--cepimate-verde);
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.cepimate-linha-card h3 {
+  font-size: 16px;
+  margin: 0 0 6px;
+  color: #333;
+}
+
+.cepimate-linha-card p {
+  font-size: 13px;
+  color: #666;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* ---------- Seção: Projetos em destaque (Home) ---------- */
+.cepimate-projetos-destaque-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  padding-bottom: 40px;
+}
+
+.cepimate-projeto-destaque-card {
+  border-left: 4px solid var(--cepimate-verde);
+  background: #fafafa;
+  padding: 16px 20px;
+  border-radius: 0 8px 8px 0;
+}
+
+.cepimate-projeto-destaque-card h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  color: #222;
+}
+
+.cepimate-projeto-destaque-card p {
+  margin: 0 0 10px;
+  font-size: 13px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.cepimate-projeto-destaque-card .tag {
+  display: inline-block;
+  font-size: 11px;
+  background: var(--cepimate-verde);
+  color: #fff;
+  padding: 2px 10px;
+  border-radius: 10px;
+  margin-right: 6px;
+  margin-bottom: 4px;
+}
+
+.cepimate-projeto-destaque-card .saiba-mais {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 13px;
+  color: var(--cepimate-verde);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.cepimate-projeto-destaque-card .saiba-mais:hover {
+  text-decoration: underline;
+}
+main p { font-size: 15px; line-height: 21px; }
+
+@media screen and (min-width: 1024px) {
+    #barra-breadcrumb { padding-left: 210px; }
+}

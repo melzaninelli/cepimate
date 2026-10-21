@@ -1,0 +1,54 @@
+/* Sistema de grid 
+
+    Página 15 a 18 do guia: http://www.secom.gov.br/orientacoes-gerais/comunicacao-digital/guia-de-estilo-identidade-padrao-comunicacao-digital-fev2015.pdf
+                   ===================================================================
+                   |                              960                                |
+linha              |                            750 (celula)                         |
+linha tamanho-3    |    230 (celula)     |              490 (celula-2)               |
+linha tamanho-3    |    230 (celula)     |    230 (celula)     |    230 (celula)     |
+linha tamanho-6    | (celula) | (celula) | (celula) | (celula) | (celula) | (celula) |
+                   ===================================================================
+    
+*/
+.grid .linha [class*="celula"] {
+    display: inline-block;
+}
+.grid .linha {
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    main .grid .linha .celula {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    main.grid .linha.tamanho-3 .celula {
+        width: 230px;
+    }
+    main.grid .linha.tamanho-3 .celula-2 {
+        width: 490px;
+    }
+    main.grid .linha.tamanho-6 .celula {
+        width: 100px;
+    }
+    main.grid .linha [class*="celula"]:not(:last-child):not(.celula-1-1) {
+        margin-right: 30px;
+        float: left;
+    }
+    main .grid .linha [class*="celula"]:last-child,
+    .grid .linha {
+        clear: both;
+    }
+    
+}
+@media (min-width: 1024px) {
+    body.sem-menu main.grid .linha.tamanho-3 .celula {
+        width: 300px;
+    }
+    body.sem-menu main.grid .linha.tamanho-3 .celula-2 {
+        width: 630px;
+    }
+    body.sem-menu main.grid .linha.tamanho-6 .celula {
+        width: 135px;
+    }
+}

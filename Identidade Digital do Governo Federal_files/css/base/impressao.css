@@ -1,0 +1,35 @@
+@media print{
+    #barra-brasil,
+    #barra-acessibilidade,
+    #barra-idiomas,
+    #barra-atalhos,
+    .busca-geral,
+    #barra-servicos,
+    #footer-menu,
+    .screen-reader-text{
+        display: none;
+    }
+    #cabecalho>div{
+        min-height: unset;
+    }
+    #titulo{
+        padding-bottom: unset;
+    }
+    main legend,
+    .menu-bloco dt{
+        background-color: #efefef;
+    }
+    a{
+        color:black;
+    }
+    #barra-breadcrumb{
+        margin-top: unset;
+    }
+    #central #menu-lateral{
+        display: none;
+    }
+    #area-conteudo{
+        width: 100%;
+        margin-left: 0;
+    }
+}
